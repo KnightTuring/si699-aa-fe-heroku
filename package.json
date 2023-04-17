@@ -2,6 +2,10 @@
   "name": "discover-score",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "19.9.0",
+    "npm": "9.6.3"
+  },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
     "@react-google-maps/api": "^2.18.1",
