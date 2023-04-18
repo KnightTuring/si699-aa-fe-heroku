@@ -7,7 +7,7 @@ import tract_polygon from "./tract_polygon.json"
 export default function Home(props) {
   const { tractFocus, setbDataFips } = props
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDL9xtKQu2M7bUivyEn0W9Y2XXW_2dvph0",
+    googleMapsApiKey: "",
   });
 
   if (!isLoaded) return <div>Loading...</div>;
