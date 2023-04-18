@@ -6,7 +6,7 @@ import { bDataReq } from "../utils";
 export default function Home(props) {
   const { granularData } = props
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDL9xtKQu2M7bUivyEn0W9Y2XXW_2dvph0",
+    googleMapsApiKey: "",
   });
 
   if (!isLoaded) return <div>Loading...</div>;
